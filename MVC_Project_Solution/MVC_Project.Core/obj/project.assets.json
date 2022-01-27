@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\abdal\\.nuget\\packages\\": {}
+    "C:\\Users\\Ahmed Khalil\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\iti .net\\Asp.Net Core MVC\\mvcproject\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.Core\\MVC_Project.Core.csproj",
+      "projectUniqueName": "E:\\Programming\\7.Repos\\ITI(3M)\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.Core\\MVC_Project.Core.csproj",
       "projectName": "MVC_Project.Core",
-      "projectPath": "D:\\iti .net\\Asp.Net Core MVC\\mvcproject\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.Core\\MVC_Project.Core.csproj",
-      "packagesPath": "C:\\Users\\abdal\\.nuget\\packages\\",
-      "outputPath": "D:\\iti .net\\Asp.Net Core MVC\\mvcproject\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.Core\\obj\\",
+      "projectPath": "E:\\Programming\\7.Repos\\ITI(3M)\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.Core\\MVC_Project.Core.csproj",
+      "packagesPath": "C:\\Users\\Ahmed Khalil\\.nuget\\packages\\",
+      "outputPath": "E:\\Programming\\7.Repos\\ITI(3M)\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\abdal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ahmed Khalil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
