@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "00517ee4-e9b8-4bc5-81c7-1ff52cad1182": {
+      "ProjectGuid": "00517ee4-e9b8-4bc5-81c7-1ff52cad1182",
+      "DisplayName": "MVC_Project.web",
+      "ColorIndex": 0
+    },
+    "5e769eb4-a988-42d6-95a7-fc67ea240114": {
+      "ProjectGuid": "5e769eb4-a988-42d6-95a7-fc67ea240114",
+      "DisplayName": "MVC_Project.Core",
+      "ColorIndex": 1
+    },
+    "79be0efd-ec00-49fc-9a37-9116f3a7c325": {
+      "ProjectGuid": "79be0efd-ec00-49fc-9a37-9116f3a7c325",
+      "DisplayName": "MVC_Project.EF",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
