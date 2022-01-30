@@ -9,8 +9,8 @@ namespace MVC_Project.Core.Interfaces
 {
     public interface IUnitOfWork:IDisposable
     {
-        IBaseRepository<menu> menus { get; }
-        IBaseRepository<gust> gusts { get; }
+        //IBaseRepository<menu> menus { get; }
+        //IBaseRepository<gust> gusts { get; }
         int Complete();
         
     }

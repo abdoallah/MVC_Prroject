@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MVC_Project.Core.Interfaces;
+using Restaurant.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +12,8 @@ namespace MVC_Project.EF.Repositories
 {
     public class BaseRepository<T> : IBaseRepository<T> where T : class
     {
-        protected ApplicationDbContext _Context;
-        public BaseRepository(ApplicationDbContext Context)
+        protected RestaurantService _Context;
+        public BaseRepository(RestaurantService Context)
         {
             _Context = Context;
         }

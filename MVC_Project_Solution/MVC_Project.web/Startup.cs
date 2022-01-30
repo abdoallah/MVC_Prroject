@@ -11,6 +11,7 @@ using MVC_Project.Core.Interfaces;
 using MVC_Project.EF;
 using MVC_Project.EF.Extend;
 using MVC_Project.EF.Repositories;
+using Restaurant.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,15 +33,13 @@ namespace MVC_Project.web
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<ApplicationDbContext>
+            services.AddDbContext<RestaurantService>
                 (Options => Options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
-                 b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
+                 b => b.MigrationsAssembly(typeof(RestaurantService).Assembly.FullName)));
 
 
-//<<<<<<< HEAD
             //services.AddTransient(typeof(IBaseRepository<>), typeof(BaseRepository<>));
             services.AddTransient<IUnitOfWork, UnitOfWork>();
-//=======
             services.AddTransient(typeof(IBaseRepository<>), typeof(BaseRepository<>));
 
 
@@ -70,12 +69,11 @@ namespace MVC_Project.web
                 options.Password.RequireUppercase = true;
                 options.Password.RequiredLength = 6;
                 options.Password.RequiredUniqueChars = 0;
-            }).AddEntityFrameworkStores<ApplicationDbContext>()
+            }).AddEntityFrameworkStores<RestaurantService>()
             .AddTokenProvider<DataProtectorTokenProvider<ApplicationUser>>(TokenOptions.DefaultProvider);
 
             #endregion
 
-//>>>>>>> 014d30609b9640821b34c01a4d71c8d717553484
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
