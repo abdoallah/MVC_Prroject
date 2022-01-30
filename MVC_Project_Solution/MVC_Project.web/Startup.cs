@@ -37,10 +37,10 @@ namespace MVC_Project.web
                  b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
 
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
             //services.AddTransient(typeof(IBaseRepository<>), typeof(BaseRepository<>));
             services.AddTransient<IUnitOfWork, UnitOfWork>();
-=======
+//=======
             services.AddTransient(typeof(IBaseRepository<>), typeof(BaseRepository<>));
 
 
@@ -75,7 +75,7 @@ namespace MVC_Project.web
 
             #endregion
 
->>>>>>> 014d30609b9640821b34c01a4d71c8d717553484
+//>>>>>>> 014d30609b9640821b34c01a4d71c8d717553484
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
