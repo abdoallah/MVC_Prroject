@@ -1,4 +1,5 @@
 ﻿using MVC_Project.Core.Models;
+using Restaurant.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace MVC_Project.Core.Interfaces
 {
-    public interface Imenu:IBaseRepository<menu>
+    public interface Imenu:IBaseRepository<Food>
     {
        //special method for menu model only 
-        IEnumerable<menu> menu_getall();
+        IEnumerable<Food> menu_getall();
     }
 }

@@ -6016,19 +6016,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\abdal\\.nuget\\packages\\": {}
+    "C:\\Users\\Infotech\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\iti .net\\Asp.Net Core MVC\\mvcproject\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.web\\MVC_Project.web.csproj",
+      "projectUniqueName": "C:\\Users\\Infotech\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.web\\MVC_Project.web.csproj",
       "projectName": "MVC_Project.web",
-      "projectPath": "D:\\iti .net\\Asp.Net Core MVC\\mvcproject\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.web\\MVC_Project.web.csproj",
-      "packagesPath": "C:\\Users\\abdal\\.nuget\\packages\\",
-      "outputPath": "D:\\iti .net\\Asp.Net Core MVC\\mvcproject\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.web\\obj\\",
+      "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.web\\MVC_Project.web.csproj",
+      "packagesPath": "C:\\Users\\Infotech\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Infotech\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\abdal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Infotech\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6042,11 +6042,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\iti .net\\Asp.Net Core MVC\\mvcproject\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.Core\\MVC_Project.Core.csproj": {
-              "projectPath": "D:\\iti .net\\Asp.Net Core MVC\\mvcproject\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.Core\\MVC_Project.Core.csproj"
+            "C:\\Users\\Infotech\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.Core\\MVC_Project.Core.csproj": {
+              "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.Core\\MVC_Project.Core.csproj"
             },
-            "D:\\iti .net\\Asp.Net Core MVC\\mvcproject\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.EF\\MVC_Project.EF.csproj": {
-              "projectPath": "D:\\iti .net\\Asp.Net Core MVC\\mvcproject\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.EF\\MVC_Project.EF.csproj"
+            "C:\\Users\\Infotech\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.EF\\MVC_Project.EF.csproj": {
+              "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.EF\\MVC_Project.EF.csproj"
             }
           }
         }
@@ -6082,12 +6082,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.12, 5.0.12]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

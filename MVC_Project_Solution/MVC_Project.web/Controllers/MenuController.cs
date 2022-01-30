@@ -13,12 +13,7 @@ namespace MVC_Project.web.Controllers
         }
 
 
-        public IActionResult Index()
-        {
-            return View(_unitOfWork.menus.GetAll());
-
-           // _unitOfWork.Complete();
-        }
+        
        
        
     }
