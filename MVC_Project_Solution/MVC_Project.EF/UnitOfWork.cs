@@ -1,6 +1,7 @@
 ﻿using MVC_Project.Core.Interfaces;
 using MVC_Project.Core.Models;
 using MVC_Project.EF.Repositories;
+using Restaurant.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,15 +12,14 @@ namespace MVC_Project.EF
 {
     public class UnitOfWork :IUnitOfWork
     {
-        private readonly ApplicationDbContext _Context;
+        private readonly RestaurantService _Context;
 
-        public IBaseRepository<menu> menus { get; private set; }
-        public IBaseRepository<gust> gusts { get; private set; }
-        public UnitOfWork(ApplicationDbContext Context)
+        //public IBaseRepository<menu> menus { get; private set; }
+        //public IBaseRepository<gust> gusts { get; private set; }
+        public UnitOfWork(RestaurantService Context)
         {
             _Context=Context;
-            menus = new BaseRepository<menu>(_Context);
-            gusts = new BaseRepository<gust>(_Context);
+           
 
 
         }
