@@ -6016,19 +6016,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Infotech\\.nuget\\packages\\": {}
+    "C:\\Users\\M.Naill\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Infotech\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.web\\MVC_Project.web.csproj",
+      "projectUniqueName": "C:\\Users\\M.Naill\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.web\\MVC_Project.web.csproj",
       "projectName": "MVC_Project.web",
-      "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.web\\MVC_Project.web.csproj",
-      "packagesPath": "C:\\Users\\Infotech\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Infotech\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.web\\obj\\",
+      "projectPath": "C:\\Users\\M.Naill\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.web\\MVC_Project.web.csproj",
+      "packagesPath": "C:\\Users\\M.Naill\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\M.Naill\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Infotech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\M.Naill\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6042,11 +6042,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Infotech\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.Core\\MVC_Project.Core.csproj": {
-              "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.Core\\MVC_Project.Core.csproj"
+            "C:\\Users\\M.Naill\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.Core\\MVC_Project.Core.csproj": {
+              "projectPath": "C:\\Users\\M.Naill\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.Core\\MVC_Project.Core.csproj"
             },
-            "C:\\Users\\Infotech\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.EF\\MVC_Project.EF.csproj": {
-              "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.EF\\MVC_Project.EF.csproj"
+            "C:\\Users\\M.Naill\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.EF\\MVC_Project.EF.csproj": {
+              "projectPath": "C:\\Users\\M.Naill\\Documents\\GitHub\\MVC_Prroject\\MVC_Project_Solution\\MVC_Project.EF\\MVC_Project.EF.csproj"
             }
           }
         }
@@ -6090,7 +6090,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
