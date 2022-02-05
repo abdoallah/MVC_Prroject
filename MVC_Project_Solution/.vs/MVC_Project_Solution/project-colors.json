@@ -1,15 +1,9 @@
 {
   "Version": 1,
   "ProjectMap": {
-<<<<<<< HEAD
-    "00517ee4-e9b8-4bc5-81c7-1ff52cad1182": {
-      "ProjectGuid": "00517ee4-e9b8-4bc5-81c7-1ff52cad1182",
-      "DisplayName": "MVC_Project.web",
-=======
     "79be0efd-ec00-49fc-9a37-9116f3a7c325": {
       "ProjectGuid": "79be0efd-ec00-49fc-9a37-9116f3a7c325",
       "DisplayName": "MVC_Project.EF",
->>>>>>> 014d30609b9640821b34c01a4d71c8d717553484
       "ColorIndex": 0
     },
     "5e769eb4-a988-42d6-95a7-fc67ea240114": {
@@ -17,12 +11,6 @@
       "DisplayName": "MVC_Project.Core",
       "ColorIndex": 1
     },
-<<<<<<< HEAD
-    "79be0efd-ec00-49fc-9a37-9116f3a7c325": {
-      "ProjectGuid": "79be0efd-ec00-49fc-9a37-9116f3a7c325",
-      "DisplayName": "MVC_Project.EF",
-      "ColorIndex": 2
-=======
     "00517ee4-e9b8-4bc5-81c7-1ff52cad1182": {
       "ProjectGuid": "00517ee4-e9b8-4bc5-81c7-1ff52cad1182",
       "DisplayName": "MVC_Project.web",
@@ -32,7 +20,6 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
->>>>>>> 014d30609b9640821b34c01a4d71c8d717553484
     }
   },
   "NextColorIndex": 3
